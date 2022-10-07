@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venndii Inc.</title>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-auth.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+    https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-analytics.js"></script>
+
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+    <nav>
+        <label class='logo'>Venndii Inc.</label>
+    </nav>
+
+    <div class='loginBox'>
+
+        <div class='loginInput1'>
+            <input type = 'userName' placeholder="User name" id='emailField'/> 
+        </div>
+        
+        <div class='loginInput2'>
+                <input type = 'password' placeholder="Password" id = 'passwordField'/> 
+        </div>
+        
+        <div class='loginButton'>
+            <button onclick= 'login()'>Login</button> <!--Call login function-->
+        </div>
+
+        <div class='loginMessage'>
+
+            <label id='loginMessage'></label>
+
+        </div>
+    
+    </div>
+    
+    <script>
+        
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        var firebaseConfig = {
+            apiKey: "AIzaSyDg3zMwccqHRYATSBXGEifzCyK8ABwAYM0",
+            authDomain: "test-data-base-d7053.firebaseapp.com",
+            databaseURL: "https://test-data-base-d7053.firebaseio.com",
+            projectId: "test-data-base-d7053",
+            storageBucket: "test-data-base-d7053.appspot.com",
+            messagingSenderId: "926475684074",
+            appId: "1:926475684074:web:11b4f5942915bfe067ef93",
+            measurementId: "G-SEFSQY1TY0"
+        };
+        
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        firebase.analytics();
+        
+        const db= firebase.firestore();
+        //db.settings({timestampsInSnapshots: true});
+
+    </script>
+
+    <script src="login.js"></script>
+
+    <!--google places API-->
+    
+    <!--
+    <script defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB6s6U3YTCc6oZRi35scBeqzBIsGH2LlL0&libraries=places&callback=activatePlacesSearch">
+    </script>
+    -->
+
+</body>
+</html>

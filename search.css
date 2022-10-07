@@ -1,0 +1,73 @@
+
+body {
+
+    font-family: montserrat;
+    
+}
+
+
+.searchField {
+
+    width: 700px;
+    height: 100px;
+    background: white;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    
+      
+}
+
+
+.searchField input {
+
+    font-family: montserrat;  
+    height: 25px;
+    width: 300px;
+    border-color: rgb(151, 150, 150);
+    padding: 3px;
+    border: 1px solid #ccc; 
+    font-size: 15px;
+    font-weight: bold;
+            
+ }
+
+ .searchField button {
+
+    font-family: montserrat;
+    font-size: 15px;
+    width: 200px;
+    height: 33px;
+    background: #1E4599;
+    border: #1E4599;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+            
+ }
+
+ #searchOptions {
+
+    font-family: montserrat;
+    width: 133px;
+    height: 33px;
+    font-weight: bold;
+    border-color: rgb(151, 150, 150);
+    font-size: 15px;
+
+ }
+
+ .addUserField {
+
+    width: 1200px;
+    height: 500px;
+    background: rgb(236, 236, 236);
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    
+      
+}

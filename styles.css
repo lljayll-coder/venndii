@@ -1,0 +1,138 @@
+
+* {
+
+    padding: 0; 
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+body {
+
+    font-family: montserrat;
+
+}
+
+nav {
+
+    background : #2699FB;
+    height: 70px;
+
+}
+
+.logo {
+
+    color: white;
+    font-size: 33px;
+    padding-left: 100px;
+    line-height: 70px;
+    
+}
+
+nav ul {
+
+    float: right;
+    
+}
+
+nav ul li {
+
+    margin: 25px;
+    display: inline-block;
+    
+}
+
+nav ul li a {
+
+    color: white;
+    
+    
+}
+
+.loginBox {
+
+    width: 333px;
+    height: 400px;
+    background: white;
+    margin: auto;
+    
+}
+
+.loginBox .loginInput1 {
+
+    padding-top: 200px;
+    padding-bottom: 10px;
+    text-align: center;    
+        
+}
+
+.loginBox .loginInput1 input {
+
+   height: 25px;
+   width: 70%;
+   border-color: rgb(151, 150, 150);
+   padding: 3px;
+   border: 1px solid #ccc;
+        
+}
+
+.loginBox .loginInput2 {
+
+    padding-bottom: 15px;
+    text-align: center;
+        
+}
+
+.loginBox .loginInput2 input {
+
+    height: 25px;
+    width: 70%;
+    border-color: rgb(151, 150, 150);
+    padding: 3px;
+    border: 1px solid #ccc;
+         
+ }
+
+ .loginBox .loginMessage {
+
+    color: black;
+    padding-top: 15px;
+    font-family: montserrat;  
+    padding-left: 50px;
+         
+ }
+
+
+.loginBox .loginButton {
+    
+    text-align: center;
+    
+}
+
+.loginBox .loginButton button {
+
+    width: 75%;
+    height: 40px;
+    background: #1E4599;
+    border: #1E4599;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+            
+}
+
+.mainDiv {
+
+    background-color: rgb(236, 236, 236);
+    width: 1000px;
+    height: 700px;
+    padding: 100;
+    margin: auto;
+    position: relative;
+    top: 100px;
+    
+}

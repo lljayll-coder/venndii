@@ -1,0 +1,332 @@
+.mainGenerate {
+
+    width: 1310px;
+    height: 1500px;
+    margin: auto;
+    background-color: rgb(236, 236, 236);
+    position: relative;
+    padding-top: 50px;
+    top: 100px;
+    
+}
+
+.mainGenerate .inputFields {
+    
+    width: 1200px;
+    height: 33px;
+    display: flex;
+    padding: 40px;
+    
+   
+}
+
+.mainGenerate .inputFields input {
+    
+    height: 15px;
+    width: 200px;
+    padding: 5px;
+       
+}
+
+.mainGenerate .inputFields label {
+    
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 10px;
+       
+}
+
+/*------------------------------------------------------*/
+
+.mainGenerate .inputFieldsSex {
+    
+    width: 1100px;
+    height: 33px;
+    display: flex;
+    padding: 20px;
+    padding-left: 85px;
+    
+}
+
+.mainGenerate .inputFieldsSex input {
+    
+    height: 25px;
+    width: 200px;
+    padding: 5px;
+       
+}
+
+#userSex {
+
+    height: 30px;
+    width: 200px;
+    padding: 3px;
+    
+}
+
+#desiredSex {
+
+    height: 30px;
+    width: 200px;
+    padding: 3px;
+
+}
+
+.mainGenerate .inputFieldsSex label {
+    
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 10px;
+       
+}
+
+/*------------------------------------------------------*/
+
+
+.mainGenerate .inputFieldsEmail {
+    
+    width: 1200px;
+    height: 33px;
+    display: flex;
+    padding: 20px;
+    padding-left: 70px;
+    
+}
+
+.mainGenerate .inputFieldsEmail input {
+    
+    height: 15px;
+    width: 200px;
+    padding: 5px;
+    
+       
+}
+
+.mainGenerate .inputFieldsEmail label {
+    
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 10px;
+       
+}
+
+/*------------------------------------------------------*/
+
+.mainGenerate .inputFieldsLowerAgeRange {
+    
+    width: 1200px;
+    height: 33px;
+    display: flex;
+    padding: 20px;
+    padding-left: 45px;
+    
+}
+
+.mainGenerate .inputFieldsLowerAgeRange input {
+    
+    height: 15px;
+    width: 200px;
+    padding: 5px;
+       
+}
+
+.mainGenerate .inputFieldsLowerAgeRange label {
+    
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 10px;
+       
+}
+
+/*------------------------------------------------------*/
+
+.mainGenerate .inputFieldsLatitudeLocation {
+    
+    width: 1200px;
+    height: 33px;
+    display: flex;
+    padding: 20px;
+    padding-left: 50px;
+    
+}
+
+.mainGenerate .inputFieldsLatitudeLocation input {
+    
+    height: 15px;
+    width: 200px;
+    padding: 5px;
+       
+}
+
+.mainGenerate .inputFieldsLatitudeLocation label {
+    
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 10px;
+       
+}
+
+/*------------------------------------------------------*/
+
+.mainGenerate .inputFieldsShowProfile {
+    
+    width: 1200px;
+    height: 33px;
+    display: flex;
+    padding: 20px;
+    
+    
+}
+
+.mainGenerate .inputFieldsShowProfile input {
+    
+    height: 25px;
+    width: 200px;
+       
+}
+
+#showProfile {
+
+    height: 30px;
+    width: 200px;
+    padding: 3px;
+
+}
+
+#userHosting {
+
+    height: 30px;
+    width: 200px;
+    padding: 3px;
+}
+
+.mainGenerate .inputFieldsShowProfile label {
+    
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 10px;
+       
+}
+
+
+
+/*------------------------------------------------------*/
+
+.mainGenerate .inputFieldsLanguages {
+    
+    width: 1200px;
+    height: 33px;
+    display: flex;
+    padding: 20px;
+    padding-left: 40px;
+    
+}
+
+.mainGenerate .inputFieldsLanguages input {
+    
+    height: 15px;
+    width: 200px;
+    padding: 5px;
+       
+}
+
+.mainGenerate .inputFieldsLanguages label {
+    
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 10px;
+       
+}
+
+/*------------------------------------------------------*/
+
+.mainGenerate .inputFieldsInterests3 {
+    
+    width: 1250px;
+    height: 33px;
+    display: flex;
+    padding: 20px;
+    padding-left: 40px;
+    
+}
+
+.mainGenerate .inputFieldsInterests3 input {
+    
+    height: 15px;
+    width: 200px;
+    padding: 5px;
+       
+}
+
+.mainGenerate .inputFieldsInterests3 label {
+    
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 10px;
+       
+}
+
+/*------------------------------------------------------*/
+
+
+
+
+#autoGeneratePhoto {
+
+    font-family: montserrat;
+    font-size: 15px;
+    width: 200px;
+    height: 33px;
+    background: #1E4599;
+    border: #1E4599;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+            
+ }
+
+ .mainGenerate .buttonAndImage {
+
+    display: flex;
+           
+ }
+
+ #userPhoto {
+     
+    padding-left: 80px;
+
+ }
+
+ .mainGenerate .buttonAndImage {
+
+    padding-left: 130px;
+
+ }
+
+/*------------------------------------------------------*/
+
+.mainGenerate .generateNameButtons button {
+
+    font-family: montserrat;
+    font-size: 15px;
+    width: 200px;
+    height: 33px;
+    background: #1E4599;
+    border: #1E4599;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;    
+           
+ }
+
+ .mainGenerate .generateNameButtons {
+    padding-top: 50px;
+    padding-left: 130px;
+    
+ }
